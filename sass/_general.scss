@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
+img {
+    vertical-align: middle;
+    object-fit: contain;
+}
